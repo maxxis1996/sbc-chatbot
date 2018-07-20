@@ -1,0 +1,766 @@
+{
+  "entities": {
+    "animals": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "gavil\u00e1n"
+        },
+        {
+          "synonyms": [],
+          "value": "hormiga"
+        },
+        {
+          "synonyms": [],
+          "value": "serpiente"
+        },
+        {
+          "synonyms": [],
+          "value": "zorro"
+        },
+        {
+          "synonyms": [],
+          "value": "lobo"
+        },
+        {
+          "synonyms": [],
+          "value": "perro"
+        },
+        {
+          "synonyms": [],
+          "value": "pez"
+        },
+        {
+          "synonyms": [],
+          "value": "mosca"
+        },
+        {
+          "synonyms": [],
+          "value": "lechuza"
+        },
+        {
+          "synonyms": [],
+          "value": "buho"
+        },
+        {
+          "synonyms": [],
+          "value": "cuy"
+        },
+        {
+          "synonyms": [],
+          "value": "escarabajo"
+        },
+        {
+          "synonyms": [],
+          "value": "gusano"
+        },
+        {
+          "synonyms": [],
+          "value": "picaflor"
+        },
+        {
+          "synonyms": [],
+          "value": "armadillo"
+        },
+        {
+          "synonyms": [],
+          "value": "caracol"
+        },
+        {
+          "synonyms": [],
+          "value": "rana"
+        },
+        {
+          "synonyms": [],
+          "value": "mono"
+        },
+        {
+          "synonyms": [],
+          "value": "cerdo"
+        },
+        {
+          "synonyms": [],
+          "value": "mariposa"
+        },
+        {
+          "synonyms": [],
+          "value": "puma"
+        },
+        {
+          "synonyms": [],
+          "value": "luciernaga"
+        },
+        {
+          "synonyms": [],
+          "value": "venado"
+        },
+        {
+          "synonyms": [],
+          "value": "gallinazo"
+        },
+        {
+          "synonyms": [],
+          "value": "paloma"
+        },
+        {
+          "synonyms": [],
+          "value": "ara\u00f1a"
+        },
+        {
+          "synonyms": [],
+          "value": "tortuga"
+        },
+        {
+          "synonyms": [],
+          "value": "oveja"
+        },
+        {
+          "synonyms": [],
+          "value": "gallina"
+        },
+        {
+          "synonyms": [],
+          "value": "zarig\u00fceya"
+        },
+        {
+          "synonyms": [],
+          "value": "pato"
+        },
+        {
+          "synonyms": [],
+          "value": "lagartija"
+        },
+        {
+          "synonyms": [],
+          "value": "cangrejo"
+        },
+        {
+          "synonyms": [],
+          "value": "comadreja"
+        },
+        {
+          "synonyms": [],
+          "value": "chivo"
+        },
+        {
+          "synonyms": [],
+          "value": "gato"
+        },
+        {
+          "synonyms": [],
+          "value": "rat\u00f3n"
+        },
+        {
+          "synonyms": [],
+          "value": "piojo"
+        },
+        {
+          "synonyms": [],
+          "value": "pulga"
+        },
+        {
+          "synonyms": [],
+          "value": "condor"
+        }
+      ],
+      "use_synonyms": true
+    }
+  },
+  "intents": {
+    "allAnimal": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "\u00bfQue animales tienes registrados?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfDime el nombre de los animales?"
+            }
+          ]
+        }
+      ]
+    },
+    "descripcion": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "\u00bfCual es la descripci\u00f3n de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfDame la descripcion de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfCual seria la descripcion de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bf"
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " tiene como descripcion?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bf"
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " y su descripcion?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfMuestrame la descripci\u00f3n de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfMuestrame la descripci\u00f3n de un "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        }
+      ]
+    },
+    "igualEn": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "\u00bfCual es la traducci\u00f3n de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " en ingles?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bf"
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " en ingles?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfDame la traducci\u00f3n de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " en ingles?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfCual seria la traducci\u00f3n de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " en ingles?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bf"
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " tiene como traducci\u00f3n en ingles?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bf"
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " y su traducci\u00f3n en ingles?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfMuestrame la traducci\u00f3n de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " en ingles?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfMuestrame la traducci\u00f3n de un "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " en ingles?"
+            }
+          ]
+        }
+      ]
+    },
+    "igualKi": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "\u00bfCual es la traducci\u00f3n de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " en kitchwa?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bf"
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " en kitchwa?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfDame la traducci\u00f3n de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " en kitchwa?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfCual seria la traducci\u00f3n de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " en kitchwa?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bf"
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " tiene como traducci\u00f3n en kitchwa?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bf"
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " y su traducci\u00f3n en kitchwa?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfMuestrame la traducci\u00f3n de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " en kitchwa?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfMuestrame la traducci\u00f3n de un "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " en kitchwa?"
+            }
+          ]
+        }
+      ]
+    },
+    "imagen": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "\u00bfCual es la imagen de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfDame la imagen de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfCual seria la imagen de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bf"
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " tiene como imagen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bf"
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " y su imagen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfMuestrame la imagen de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfMuestrame la imagen de un "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        }
+      ]
+    },
+    "nombreCientifico": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "\u00bfCual es el nombre cient\u00edfico de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfDame el nombre cient\u00edfico de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfCual seria el nombre cient\u00edfico de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bf"
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " tiene como nombre cient\u00edfico?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bf"
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": " y su nombre cient\u00edfico?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfMuestrame el nombre cient\u00edfico de "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfMuestrame el nombre cient\u00edfico de un "
+            },
+            {
+              "entity": "animals",
+              "slot_name": "animals",
+              "text": "animal"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "es"
+}
